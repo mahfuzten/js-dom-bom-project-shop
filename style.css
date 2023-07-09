@@ -1,5 +1,18 @@
 
-
+i{
+    pointer-events: none;
+}
 .shop-data tr{
     vertical-align: middle;
+    horizental-align: center;
+}
+.single-product img{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit:cover;
+    display: block;
+    margin: auto;
+    border: 10px solid #FFF;
 }

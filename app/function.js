@@ -26,3 +26,9 @@ const createLSData = (key, value) =>{
     localStorage.setItem(key, JSON.stringify(Data));
 
 }
+
+
+const updateLSData = (key, array) => {
+
+        localStorage.setItem(key, JSON.stringify(array))
+}
